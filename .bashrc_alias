@@ -1,0 +1,24 @@
+alias ls='ls --sort=extension --color=auto'
+alias ll='ls -lh'
+alias lal='ls -alh'
+alias la='ls -A'
+alias ..='cd ..'
+
+
+# Some more, to avoid mistakes
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+
+# Git Commands
+# Add and Commit are used as functions
+alias gitpo='git push origin master'
+alias gitp='git pull'
+alias gits='git status'
+alias gitd='git diff'
+alias gitb='git branch -vv'
+alias gitr='git remote -v'
+alias gitl='git ls-files'
+alias gitam='git commit -a -m'
+
